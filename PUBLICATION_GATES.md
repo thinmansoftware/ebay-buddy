@@ -1,0 +1,12 @@
+# Publication review
+
+This is a local review candidate, not a published package, marketplace listing or approved public service.
+
+- Proposed repository: `thinmansoftware/ebay-buddy`. Do not change visibility of the existing private source repository or copy its Git history. Verify repository/name ownership before creating or publishing.
+- Proposed package: `@thinmansoftware/ebay-buddy-core`, `0.1.0-rc.10`. Verify namespace and publisher rights. `private:true` remains a deliberate guard until exact publication authorization.
+- Proposed license: MIT, copyright Thin Man Software contributors. This is a concrete review choice, not an assertion that all contributors' rights or distribution permissions have been cleared. Review original source/contributor rights and every packaged dependency and notice before publication.
+- Review the exact file manifest, source commit, artifact hashes, dependency inventory, secret/private-data scan and clean-install results. Public history starts clean. Never include private deployment state, real credentials/digests, caller state, seller grants/data or customer/Workroom/printer modules.
+- User-supplied eBay credentials require their own approved application/access and compliance with eBay's API policies. Packaging MIT code does not grant eBay API/data/image rights. No public service or shared BDC account is provided.
+- ThinMan product/privacy/terms/support pages are owned by the separate website workstream. Obtain final URLs and privacy/data-handling review there; this candidate does not fabricate published policies or a support SLA. The Browse runtime sends search/item requests to eBay, keeps the app token in process memory and has no application persistence or analytics. The advertised requested Gmail brief is stateless; only the excluded experimental alert path stores normalized eBay email facts and delivery receipts in a private host-local SQLite file; PRIVACY.md documents that distinction. Host, reverse proxy, package manager and eBay may have separate logs/policies.
+- Grok Bot/Cursor submission materials must identify only tested capabilities and actual supported transport. Review current publisher terms, license eligibility, identity/account duties and metadata rights. Do not accept terms or submit automatically.
+- Obtain exact source/artifact/target approval before external publication, upload, namespace/account changes or marketplace submission. No production deployment or provider transactions are part of release preparation.

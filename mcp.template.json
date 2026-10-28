@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "ebay-buddy": {
+      "url": "https://YOUR-HTTPS-HOST.example/mcp",
+      "auth": {
+        "CLIENT_ID": "YOUR-PUBLIC-OAUTH-CLIENT-ID",
+        "scopes": [
+          "ebay:browse:read",
+          "offline_access"
+        ]
+      }
+    }
+  }
+}

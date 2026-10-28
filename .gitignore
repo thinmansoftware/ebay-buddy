@@ -1,0 +1,9 @@
+node_modules/
+dist/
+*.tgz
+.env*
+coverage/
+__pycache__/
+*.pyc
+*.sqlite*
+*.db

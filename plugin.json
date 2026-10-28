@@ -1,0 +1,17 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ebay-buddy",
+  "version": "0.1.0-rc.10",
+  "description": "eBay listing search plus optional on-demand, read-only Gmail sale-notice briefs.",
+  "author": {
+    "name": "Thin Man Software"
+  },
+  "license": "MIT",
+  "keywords": [
+    "ebay",
+    "gmail",
+    "seller",
+    "comic-books",
+    "order-briefs"
+  ]
+}
